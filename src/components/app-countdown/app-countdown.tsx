@@ -1,11 +1,11 @@
 import { Component, Prop, State, h } from '@stencil/core';
 
 @Component({
-  tag: 'app-countime',
-  styleUrl: 'app-countime.css',
+  tag: 'app-countdown',
+  styleUrl: 'app-countdown.css',
   shadow: true,
 })
-export class AppCountime {
+export class AppCountdown  {
 
   @Prop() time: string;
   @State() remainingTime: string = '';
